@@ -1,1 +1,67 @@
-<p>This is an <sub>HTML</sub> file.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Recipe Book</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Recipe Book</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#breakfast">Breakfast</a></li>
+                <li><a href="#lunch">Lunch</a></li>
+                <li><a href="#dinner">Dinner</a></li>
+                <li><a href="#desserts">Desserts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="recipes">
+        <section class="recipe-card">
+            <img src="https://media.istockphoto.com/id/1466673520/photo/no-baked-blueberry-layered-cheesecake.jpg?s=2048x2048&w=is&k=20&c=ChyroeAdMESFrgYuQbvB4xbQj9VNro7J-scr1cq07fY=" alt="Cakes">
+            <h2>Cakes</h2>
+            <p>A favourite desert for all.</p>
+            <a href="https://www.allrecipes.com/recipes/276/desserts/cakes/" class="view-button" target="_blank">View Recipe</a>
+        </section>
+
+        <section class="recipe-card">
+            <img src="https://media.istockphoto.com/id/1414575281/photo/a-delicious-and-tasty-italian-pizza-margherita-with-tomatoes-and-buffalo-mozzarella.jpg?s=2048x2048&w=is&k=20&c=VMgkDRJoTv5VLHO4C4SDis7bD4Oiy39SjnQRGDv56FA=" alt="Pizza">
+            <h2>Pizza</h2>
+            <p>A classic Italian pizza.</p>
+            <a href="https://www.indianhealthyrecipes.com/pizza-recipe-make-pizza/" class="view-button" target="_blank">View Recipe</a>
+        </section>
+    
+        <section class="recipe-card">
+            <img src="https://media.istockphoto.com/id/1453402555/photo/close-up-hot-cappuccino-red-coffee-cup-with-heart-shape-latte-art-on-dark-brown-old-wood.jpg?s=2048x2048&w=is&k=20&c=hIdTzR0NXCQiqXFjBqEhj8hgzv547gnZiAtxP8J9zVE=" alt="Coffee">
+            <h2>Coffee</h2>
+            <p>A refreshing drink.</p>
+            <a href="https://www.acouplecooks.com/coffee-drinks/" class="view-button" target="_blank">View Recipe</a>
+        </section>
+    
+        <!-- Add the new recipe card here -->
+        <section class="recipe-card">
+            <img src="lasagna.jpg" alt="Lasagna">
+            <h2>Homemade Lasagna</h2>
+            <p>A delicious and cheesy Italian dish.</p>
+            <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/" class="view-button" target="_blank">View Recipe</a>
+        <!-- Add more recipe cards here -->
+    </main>
+
+    <div class="card" style="width: 18rem; float: right;">
+        <img class="card-img-top" src="https://media.istockphoto.com/id/1550429296/photo/golden-cutlery-on-plate-with-bauble-on-luxury-xmas-festive-background-halal-food-menu-for.jpg?s=2048x2048&w=is&k=20&c=mWPTT9dWPlz1bYedueYcA4v0PW1OCjYCrmw2LRGMC4I=" alt="Card image cap" style="width:auto; height: 100px;">
+        <div class="card-body">
+          <h5 class="card-title">Recipe Of The Day</h5>
+          <p class="card-text">Can't think of what to make today? Here's our Suggestion.</p>
+          <a href="https://www.indianhealthyrecipes.com/recipes/" class="btn btn-primary" target="_blank">Go somewhere</a>
+        </div>
+      </div>
+      <br>
+
+    <footer class="footer">
+        <p>&copy; 2023 Recipe Book</p>
+    </footer>
+</body>
+</html>
